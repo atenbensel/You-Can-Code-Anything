@@ -26,3 +26,28 @@ def display_tasks():
     for i, task in enumerate(tasks, 1):
         print(f"{i}. {task}")
 
+# Main function to run the to-do list program
+def main():
+    while True:
+        print("\n===== To-Do List Menu =====")
+        print("1. Add Task")
+        print("2. Delete Task")
+        print("3. View Tasks")
+        print("4. Quit")
+
+        choice = input("Enter your choice: ")
+
+        if choice == '1':
+            add_task()
+        elif choice == '2':
+            delete_task()
+        elif choice == '3':
+            display_tasks()
+        elif choice == '4':
+            print("Thank you for using the to-do list. Goodbye!")
+            break
+        else:
+            print("Invalid choice. Please try again.")
+
+if __name__ == "__main__":
+    main()
