@@ -20,3 +20,9 @@ def delete_task():
     else:
         print("Invalid choice.")
 
+# Function to display all tasks in the list
+def display_tasks():
+    print("Your tasks:")
+    for i, task in enumerate(tasks, 1):
+        print(f"{i}. {task}")
+
