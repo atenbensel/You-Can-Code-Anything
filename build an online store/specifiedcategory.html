@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page - Category Name</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+            max-width: 1200px;
+            margin-top: 20px;
+        }
+        .product-item {
+            width: 300px;
+            background-color: #fff;
+            margin: 10px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .search-filter {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .search-bar {
+            padding: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .filter-select {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            background-color: #fff;
+        }
+        .filter-select option {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Category Name</h1>
+
+        <!-- Search and Filter Options -->
+        <div class="search-filter">
+            <input type="text" class="search-bar" placeholder="Search...">
+            <select class="filter-select">
+                <option value="">Filter by Price</option>
+                <option value="low-to-high">Price: Low to High</option>
+                <option value="high-to-low">Price: High to Low</option>
+            </select>
+            <select class="filter-select">
+                <option value="">Filter by Brand</option>
+                <option value="brand1">Brand 1</option>
+                <option value="brand2">Brand 2</option>
+                <option value="brand3">Brand 3</option>
+                <!-- Add more brands here -->
+            </select>
+            <select class="filter-select">
+                <option value="">Filter by Color</option>
+                <option value="color1">Color 1</option>
+                <option value="color2">Color 2</option>
+                <option value="color3">Color 3</option>
+                <!-- Add more colors here -->
+            </select>
+        </div>
+
+        <!-- Product List -->
+        <div class="product-list">
+            <!-- Product 1 -->
+            <div class="product-item">
+                <img src="product1.jpg" alt="Product 1" class="product-image">
+                <h3>Product 1 Name</h3>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-item">
+                <img src="product2.jpg" alt="Product 2" class="product-image">
+                <h3>Product 2 Name</h3>
+                <p>Price: $XX.XX</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <!-- Add more products here -->
+        </div>
+    </div>
+</body>
+</html>
