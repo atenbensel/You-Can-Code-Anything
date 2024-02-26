@@ -1,0 +1,96 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Funnel Landing Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1, h2, h3 {
+            color: #fff;
+        }
+        p {
+            color: #ccc;
+        }
+        .section {
+            padding: 50px 0;
+        }
+        .video-section {
+            background-color: #333;
+        }
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .button-section {
+            margin-top: 50px;
+        }
+        .button-section button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .button-section button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Welcome to Our Sales Funnel</h1>
+            <p>Discover the best products and services tailored for you.</p>
+        </div>
+        
+        <div class="video-section section">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>Why Choose Us?</h2>
+            <p>Learn about our unique features and benefits.</p>
+        </div>
+        
+        <div class="video-section section">
+            <div class="video-container">
+                <iframe src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Ready to Get Started?</h2>
+            <div class="button-section">
+                <button>Start Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
