@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .category-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            list-style-type: none;
+            padding: 0;
+        }
+        .category-item {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        .category-item:hover {
+            transform: translateY(-5px);
+        }
+        .category-link {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .category-image {
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <ul class="category-list">
+            <li class="category-item">
+                <a href="category1.html" class="category-link">
+                    <img src="category1.jpg" alt="Category 1" class="category-image">
+                    Category 1
+                </a>
+            </li>
+            <li class="category-item">
+                <a href="category2.html" class="category-link">
+                    <img src="category2.jpg" alt="Category 2" class="category-image">
+                    Category 2
+                </a>
+            </li>
+            <li class="category-item">
+                <a href="category3.html" class="category-link">
+                    <img src="category3.jpg" alt="Category 3" class="category-image">
+                    Category 3
+                </a>
+            </li>
+            <!-- Add more categories here -->
+        </ul>
+    </div>
+</body>
+</html>
