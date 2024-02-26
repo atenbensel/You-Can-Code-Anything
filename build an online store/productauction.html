@@ -1,0 +1,82 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auction Product Page</title>
+    <style>
+        /* Global Styles */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .product-details {
+            margin-bottom: 20px;
+        }
+        .product-details h2 {
+            margin-bottom: 10px;
+        }
+        .product-details p {
+            margin-bottom: 5px;
+        }
+        .bid-form {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .bid-input {
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            margin-right: 10px;
+            width: 150px;
+        }
+        .bid-button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .bid-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="product-image.jpg" alt="Product Image" class="product-image">
+        <div class="product-details">
+            <h2>Product Name</h2>
+            <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p>Condition: New</p>
+            <p>Starting Price: $100.00</p>
+        </div>
+        <form class="bid-form">
+            <input type="number" class="bid-input" placeholder="Enter your bid" step="0.01" min="100.00" required>
+            <button type="submit" class="bid-button">Place Bid</button>
+        </form>
+        <p>Current Highest Bid: $120.00</p>
+        <p>Bidding Ends: February 28, 2024 12:00 PM (GMT)</p>
+    </div>
+</body>
+</html>
