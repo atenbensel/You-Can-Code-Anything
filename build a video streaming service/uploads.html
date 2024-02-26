@@ -1,0 +1,34 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Upload</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Video Upload</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upload.html">Upload Video</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Upload Video</h2>
+        <form action="#" method="POST" enctype="multipart/form-data">
+            <input type="file" name="videoFile" id="videoFile" accept="video/*" required>
+            <input type="text" name="title" placeholder="Title" required>
+            <textarea name="description" placeholder="Description"></textarea>
+            <input type="submit" value="Upload">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Video Streaming Service. All rights reserved.</p>
+    </footer>
+</body>
+</html>
