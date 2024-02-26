@@ -1,0 +1,107 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming Platform</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f8f8;
+        }
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            margin: auto;
+            padding: 0 20px;
+        }
+        header, main, footer {
+            width: 100%;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        .hero, .featured {
+            text-align: center;
+        }
+        .track-list {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .track {
+            max-width: 200px;
+            text-align: center;
+        }
+        .track img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Music Stream</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Discover</a></li>
+                    <li><a href="#">Genres</a></li>
+                    <li><a href="#">Playlists</a></li>
+                    <li><a href="#">My Library</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Discover New Music</h2>
+                <p>Explore trending tracks, albums, and playlists.</p>
+                <a href="#" class="btn">Explore Now</a>
+            </section>
+
+            <section class="featured">
+                <h2>Featured Tracks</h2>
+                <div class="track-list">
+                    <div class="track">
+                        <img src="track1.jpg" alt="Track 1">
+                        <h3>Song Title 1</h3>
+                        <p>Artist Name</p>
+                    </div>
+                    <div class="track">
+                        <img src="track2.jpg" alt="Track 2">
+                        <h3>Song Title 2</h3>
+                        <p>Artist Name</p>
+                    </div>
+                    <!-- Add more tracks as needed -->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Music Stream. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
