@@ -30,4 +30,3 @@ Contributions to this repository are welcome! If you have additional project tem
 ## License
 
 This repository is open-source!
-
