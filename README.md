@@ -23,6 +23,8 @@ Each project template is organized into its own directory. Inside each directory
 | Blog Platform         | Advanced               | Python       | Not available       | [Repository Link](#)   |
 
 
+
+
 ## Contributing
 
 Contributions to this repository are welcome! If you have additional project templates or improvements to existing ones, feel free to open a pull request with your changes.
